@@ -1,7 +1,7 @@
 version: '2'
 services:
   imgaggregator:
-    image: gioargyr/docker-imageaggregator
+    image: gioargyr/image-aggregator:1.0.0
     hostname: imgaggregator
     ports:
       - "8080:8080"
